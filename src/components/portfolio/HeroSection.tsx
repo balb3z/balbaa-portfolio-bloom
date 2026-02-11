@@ -45,8 +45,9 @@ const HeroSection = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.7, delay: 0.2 }}
           >
-            <div className="w-64 sm:w-80">
+            <div className="relative w-64 sm:w-80">
               <img src={profilePhoto} alt="Abdelrahman Balbaa" className="w-full h-auto object-contain" />
+              <div className="absolute bottom-0 left-0 right-0 h-1/3 bg-gradient-to-t from-background to-transparent" />
             </div>
           </motion.div>
         </div>
