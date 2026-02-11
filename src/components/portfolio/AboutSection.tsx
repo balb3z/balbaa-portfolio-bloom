@@ -15,8 +15,8 @@ const AboutSection = () => {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           )}
         >
-          <div className="w-48 h-48 rounded-2xl overflow-hidden flex-shrink-0">
-            <img src={profilePhoto} alt="Abdelrahman Balbaa" className="w-full h-full object-cover" />
+          <div className="w-48 flex-shrink-0">
+            <img src={profilePhoto} alt="Abdelrahman Balbaa" className="w-full h-auto object-contain" />
           </div>
           <div>
             <h2 className="text-3xl font-bold text-foreground mb-2">About Me</h2>
