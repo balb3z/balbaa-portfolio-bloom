@@ -8,7 +8,7 @@ const HeroSection = () => {
   const scrollTo = (id: string) =>
     document.querySelector(id)?.scrollIntoView({ behavior: "smooth" });
 
-return (
+  return (
     <section className="min-h-screen flex items-center pt-20 pb-12">
       <div className="container mx-auto px-6">
 
