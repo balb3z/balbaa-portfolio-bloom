@@ -42,6 +42,7 @@ const projects = [
   },
 ];
 
+
 const ProjectsSection = () => {
   const { ref, isVisible } = useScrollAnimation();
 
